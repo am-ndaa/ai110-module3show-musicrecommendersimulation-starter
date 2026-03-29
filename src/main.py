@@ -16,9 +16,12 @@ def main() -> None:
     songs = load_songs("data/songs.csv") 
 
     # Starter example profile
-    user_prefs = {"genre": "pop", "mood": "happy", "energy": 0.8}
+    user_prefs1 = {"genre": "pop", "mood": "happy", "energy": 0.8}
+    user_prefs2 = {"genre": "lofi", "mood": "chill", "energy": 0.4}
+    user_prefs = {"genre": "rock", "mood": "intense", "energy": 1}
 
-    recommendations = recommend_songs(user_prefs, songs, k=5)
+
+    recommendations = recommend_songs(user_prefs2, songs, k=5)
 
     print("\nTop recommendations:\n")
     for rec in recommendations:

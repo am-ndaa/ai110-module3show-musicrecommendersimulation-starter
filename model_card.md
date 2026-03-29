@@ -72,6 +72,8 @@ Prompts:
 
 ---
 
+The system only rewards perfect genre/mood matches so songs with similar but not identical attributes get zero points. In my tests, i made sure that the user preferences exactly matched the genres and moods available but this wouldn't happen realistically. Also, there might be an overemphasis on genre that might not reflect user preferences. some users might care about mood more than genre. 
+
 ## 7. Evaluation  
 
 How you checked whether the recommender behaved as expected. 
