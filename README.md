@@ -30,6 +30,7 @@ Some prompts to answer:
 You can include a simple diagram or bullet list if helpful.
 
 ---
+Real world recommendations work by using machine learning and data sciecne techniques. One of the core approaches is collaborative filtering. essentially, users with similar tastes will like similar music. another way is by content based filtering which analyzes the actual audio and metadata fo songs like tempo, energy, and danceability. My version will use content based filtering since that aligns with the data given. My algorithm recipe will be genre match bonus + mood match bonus + energy similarity score. 
 
 ## Getting Started
 
