@@ -17,18 +17,7 @@ Replace this paragraph with your own summary of what your version does.
 
 ## How The System Works
 
-Explain your design in plain language.
-
-Some prompts to answer:
-
-- What features does each `Song` use in your system
-  - For example: genre, mood, energy, tempo
-- What information does your `UserProfile` store
-- How does your `Recommender` compute a score for each song
-- How do you choose which songs to recommend
-
-You can include a simple diagram or bullet list if helpful.
-
+The scoring rule gives each song a higher score when it matches the user’s favorite genre and mood, and it also rewards songs whose energy level is closer to the user’s target energy by subtracting the absolute energy difference from 1. In other words, a song gets a strong bonus for genre match, a smaller bonus for mood match, and a smooth energy similarity score between 0 and 1, so the final score is highest for songs that match the user’s category preferences and are closest in energy.
 ---
 Real world recommendations work by using machine learning and data sciecne techniques. One of the core approaches is collaborative filtering. essentially, users with similar tastes will like similar music. another way is by content based filtering which analyzes the actual audio and metadata fo songs like tempo, energy, and danceability. My version will use content based filtering since that aligns with the data given. My algorithm recipe will be genre match bonus + mood match bonus + energy similarity score. 
 

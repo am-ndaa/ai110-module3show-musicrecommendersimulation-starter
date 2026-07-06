@@ -9,3 +9,11 @@ id,title,artist,genre,mood,energy,tempo_bpm,valence,danceability,acousticness
 8,Night Drive Loop,Neon Echo,synthwave,moody,0.75,110,0.49,0.73,0.22
 9,Focus Flow,LoRoom,lofi,focused,0.40,80,0.59,0.60,0.78
 10,Rooftop Lights,Indigo Parade,indie pop,happy,0.76,124,0.81,0.82,0.35
+11,Golden Horizon,Sunset Trails,pop,happy,0.79,115,0.86,0.84,0.20
+12,After Hours,Velvet Echo,ambient,chill,0.33,65,0.45,0.50,0.95
+13,Thunder Steps,Iron Pulse,rock,intense,0.88,140,0.38,0.55,0.08
+14,Quiet Corner,Acoustic Lane,folk,relaxed,0.42,82,0.74,0.48,0.92
+15,Neon Alley,Midnight Bloom,synthwave,moody,0.71,108,0.60,0.76,0.28
+16,Study Session,LoRoom,lofi,focused,0.44,76,0.62,0.63,0.81
+17,Sunset Parade,Mint Mile,indie pop,happy,0.73,120,0.79,0.77,0.30
+18,Cardio Rush,Beat Forge,edm,intense,0.94,128,0.82,0.91,0.12

@@ -85,14 +85,14 @@ class Recommender:
 
 def load_songs(csv_path: str) -> List[Dict]:
     """
-    Loads songs from a CSV file.
+    Loads songs from a CSV file and converts numeric fields for scoring.
     Required by src/main.py
     """
     songs = []
     with open(csv_path, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         for row in reader:
-            # Convert numeric fields
+            # Convert numeric fields to the right numeric types
             song_dict = {
                 'id': int(row['id']),
                 'title': row['title'],
@@ -100,7 +100,7 @@ def load_songs(csv_path: str) -> List[Dict]:
                 'genre': row['genre'],
                 'mood': row['mood'],
                 'energy': float(row['energy']),
-                'tempo_bpm': float(row['tempo_bpm']),
+                'tempo_bpm': int(float(row['tempo_bpm'])),
                 'valence': float(row['valence']),
                 'danceability': float(row['danceability']),
                 'acousticness': float(row['acousticness'])
