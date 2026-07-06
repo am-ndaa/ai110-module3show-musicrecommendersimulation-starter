@@ -1,5 +1,8 @@
 # 🎵 Music Recommender Simulation
 
+## My Summary
+I think this was a very straightforward project. I think the students will be able to follow along smoothly without running into any major challenges. The way it works at a high level that it compares song data link genre mood and energy against what the user prefers and then assigns the song a score. Once all the songs are scored, it ranks them and returns the top recommendations. 
+
 ## Project Summary
 
 In this project you will build and explain a small music recommender system.
